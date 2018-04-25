@@ -1980,7 +1980,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ac379c;
+  background: #6aff8a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3341,10 +3341,10 @@ pre .javascript .function {
   background: rgba(0,0,0,0);
   border-radius: initial;
 }
-.site-meta {
+#.site-meta {
   padding: 20px 0;
   color: #fff;
-  background: #fff;
+  background: rgba(0,0,0,0);
 }
 .post-block {
   color: #fff;
@@ -3369,7 +3369,7 @@ a {
   text-align: center;
 }
 .header-inner {
-  opacity: 0.5;
+  background: rgba(0,0,0,0);
 }
 .use-motion .site-title,
 .use-motion .site-subtitle {
@@ -3380,4 +3380,7 @@ a {
 }
 .site-subtitle {
   font-weight: blod;
+}
+.site-nav-toggle button {
+  background: #808080;
 }
