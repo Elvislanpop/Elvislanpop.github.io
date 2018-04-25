@@ -1980,7 +1980,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #85f2ff;
+  background: #a22aff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3333,26 +3333,26 @@ body {
   background: rgba(0,0,0,0);
   min-height: 500px;
 }
-.content-wrap {
+#.content-wrap {
   float: right;
   box-sizing: border-box;
   box-shadow: initial;
   background: rgba(0,0,0,0);
   border-radius: initial;
 }
-.site-meta {
+#.site-meta {
   padding: 20px 0;
   color: #fff;
   background: #fff;
 }
-.post-block {
+#.post-block {
   color: #fff;
 }
 a {
   text-decoration: none;
   color: #e81449;
 }
-.posts-expand .post-title-link {
+#.posts-expand .post-title-link {
   display: inline-block;
   position: relative;
   color: #fff;
@@ -3360,23 +3360,23 @@ a {
   line-height: 1.2;
   vertical-align: top;
 }
-.posts-expand .post-meta {
+#.posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #fff;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
-.header-inner {
+#.header-inner {
   opacity: 0.5;
 }
-.use-motion .site-title,
+#.use-motion .site-title,
 .use-motion .site-subtitle {
   color: #000;
 }
-.site-title {
+#.site-title {
   font-size: 28px;
 }
-.site-subtitle {
+#.site-subtitle {
   font-weight: blod;
 }
