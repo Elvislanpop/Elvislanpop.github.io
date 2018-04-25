@@ -1980,7 +1980,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff9dde;
+  background: #9e8258;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3327,6 +3327,7 @@ pre .javascript .function {
   background: url("https://source.unsplash.com/random/1600x900");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 .main-inner {
   margin-top: 60px;
