@@ -1980,7 +1980,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0e2099;
+  background: #ff9dde;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3321,11 +3321,12 @@ pre .javascript .function {
     text-align: justify;
   }
 }
-body {
+.container {
+  position: relative;
+  min-height: 100%;
   background: url("https://source.unsplash.com/random/1600x900");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 50%;
 }
 .main-inner {
   margin-top: 60px;
