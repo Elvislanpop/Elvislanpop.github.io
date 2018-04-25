@@ -1980,7 +1980,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2f55ad;
+  background: #0e2099;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3370,13 +3370,13 @@ a {
 .header-inner {
   opacity: 0.5;
 }
-#.use-motion .site-title,
+.use-motion .site-title,
 .use-motion .site-subtitle {
   color: #000;
 }
-#.site-title {
+.site-title {
   font-size: 28px;
 }
-#.site-subtitle {
+.site-subtitle {
   font-weight: blod;
 }
