@@ -1980,7 +1980,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6aff8a;
+  background: #ffff6a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3341,10 +3341,10 @@ pre .javascript .function {
   background: rgba(0,0,0,0);
   border-radius: initial;
 }
-#.site-meta {
+.site-meta {
   padding: 20px 0;
   color: #fff;
-  background: rgba(0,0,0,0);
+  background: #fff;
 }
 .post-block {
   color: #fff;

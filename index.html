@@ -414,14 +414,13 @@
       
         
           
-            <h3 id="Hexo和WordPress的区别："><a href="#Hexo和WordPress的区别：" class="headerlink" title="Hexo和WordPress的区别："></a>Hexo和WordPress的区别：</h3><pre><code>对WP大家肯定是不会陌生的，WP作为老牌的博客框架一直深受大家的喜爱。
-
-但是太过臃肿，以前必须要在服务器上才能搭建（又是一笔money），让我们显得不够优雅（逼格太低）
-
-相比之下，hexo足够简单，而且界面漂亮、简洁。
-
-唯一的缺点就是文档太少，遇到的问题一般需要自己去摸索。
-</code></pre><h4 id="WP的优点："><a href="#WP的优点：" class="headerlink" title="WP的优点："></a>WP的优点：</h4><ul>
+            <h3 id="Hexo和WordPress的区别："><a href="#Hexo和WordPress的区别：" class="headerlink" title="Hexo和WordPress的区别："></a>Hexo和WordPress的区别：</h3><p>对WP大家肯定是不会陌生的，WP作为老牌的博客框架一直深受大家的喜爱。</p>
+<p>但是WP太过臃肿，以及必须要在服务器上才能搭建，让我们显得不够优雅（<em>逼格太低</em>）</p>
+<p>相比之下，hexo足够简单，而且界面漂亮、简洁。</p>
+<p>唯一的缺点就是文档太少，遇到的问题一般需要自己去摸索。</p>
+<p>对WordPress感兴趣的可以看 <a href="https://cn.wordpress.org/" target="_blank" rel="noopener">WordPress帮助文档</a></p>
+<p>本篇对WordPress就不多做介绍了。</p>
+<h4 id="WordPress-的优点："><a href="#WordPress-的优点：" class="headerlink" title="WordPress 的优点："></a>WordPress 的优点：</h4><ul>
 <li>方便部署，上传——访问——设置账号密码，就可以直接进后台开始写了。</li>
 <li>方便维护：你所遇到的任何问题，都有人遇到过了，直接搜索问题即可。</li>
 <li>及时更新：wordpress是运行多年的项目了，不像很多博客系统，停更很可怕的。</li>
@@ -438,9 +437,13 @@
 </ul>
 <p><a href="http://wowubuntu.com/markdown/" target="_blank" rel="noopener">MarkDown 语法介绍</a></p>
 <hr>
-<h2 id="HEXO博客搭建步骤"><a href="#HEXO博客搭建步骤" class="headerlink" title="HEXO博客搭建步骤"></a><center>HEXO<em>博客搭建步骤</em></center></h2><h4 id="1-1-准备工作：-注册GitHub"><a href="#1-1-准备工作：-注册GitHub" class="headerlink" title="1.1 准备工作： 注册GitHub"></a>1.1 准备工作： <a href="https://github.com/" target="_blank" rel="noopener">注册GitHub</a></h4><p>注册步骤就不细说了，这都不会还是洗洗睡吧。</p>
-<p>注册之后新建一个Public 仓库。</p>
-<h5 id="注意点："><a href="#注意点：" class="headerlink" title="注意点："></a><em>注意点：</em></h5><p><strong>因为我们是使用 Github Pages 去搭建我们的静态博客，所以仓库的名称应该是你的用户名+.github.io。这个是一定不能出错的。因为之后你将要访问的你的博客地址就是： <a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a> 。</strong></p>
+<h2 id="HEXO博客搭建步骤"><a href="#HEXO博客搭建步骤" class="headerlink" title="HEXO博客搭建步骤"></a><center>HEXO博客搭建步骤</center></h2><h4 id="1-1-准备工作：-注册GitHub"><a href="#1-1-准备工作：-注册GitHub" class="headerlink" title="1.1 准备工作： 注册GitHub"></a>1.1 准备工作： <a href="https://github.com/" target="_blank" rel="noopener">注册GitHub</a></h4><p>注册步骤就不细说了，这都不会还是洗洗睡吧。</p>
+<p>注册好以后登录首页，右上角 点击 + 号选择 <strong>New Repository</strong></p>
+<p><img src="https://lh3.googleusercontent.com/-mnJPrklcFJw/WuCavAZYuEI/AAAAAAAAADs/ZAuhy1rEjBIXUw0sPmqWjXKBMKdDqer-wCHMYCw/I/%255BUNSET%255D" alt="“GitHub”🔊"></p>
+<p>然后选择:</p>
+<p><img src="https://lh3.googleusercontent.com/-TQey1qAgRDQ/WuCcSD7-bwI/AAAAAAAAAD4/slv0xQoH9G8pDDvzdAji6AmqoYWAD-tRACHMYCw/I/Create_a_New_Repository.png" alt="Create_a_New_Repository"></p>
+<p><strong>因为我已经取过这个名字了，所以才会报错。你们不会，另外，建议钩上初始化选项</strong></p>
+<h4 id="注意点："><a href="#注意点：" class="headerlink" title="注意点："></a><em>注意点：</em></h4><p><strong>因为我们是使用 Github Pages 去搭建我们的静态博客，所以仓库的名称应该是你的用户名+.github.io。这个是一定不能出错的。因为之后你将要访问的你的博客地址就是： <a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a> 。</strong></p>
 <h4 id="1-2-安装环境配置："><a href="#1-2-安装环境配置：" class="headerlink" title="1.2 安装环境配置："></a>1.2 安装环境配置：</h4><ul>
 <li>安装Git (可直接下载 <a href="https://itunes.apple.com/hk/app/xcode/id497799835?mt=12" target="_blank" rel="noopener">Xcode</a> 或者使用 <a href="https://brew.sh/" target="_blank" rel="noopener">Homebrew</a>进行安装)</li>
 </ul>
@@ -458,7 +461,20 @@
 <p><code>hexo s</code></p>
 </li>
 </ul>
-<h4 id="2-2-关联GitHub仓库，部署到GitHub托管"><a href="#2-2-关联GitHub仓库，部署到GitHub托管" class="headerlink" title="2.2 关联GitHub仓库，部署到GitHub托管"></a>2.2 关联GitHub仓库，部署到GitHub托管</h4>
+<h4 id="2-2-关联GitHub仓库，部署到GitHub托管"><a href="#2-2-关联GitHub仓库，部署到GitHub托管" class="headerlink" title="2.2 关联GitHub仓库，部署到GitHub托管"></a>2.2 关联GitHub仓库，部署到GitHub托管</h4><ul>
+<li><strong>终端 cd 到刚才安装HEXO的根目录下，会有一个 _config.yml的文件，这个就是博客的配置文件。</strong></li>
+</ul>
+<hr>
+<p><img src="https://lh3.googleusercontent.com/-W60lsxN0woA/WuCfuZE2drI/AAAAAAAAAEk/YQJF7GwI9XoCoG4KpnUuVFO5ybcSVmlFgCHMYCw/I/Blog_" alt="Blog_—_-bash_—_80×24"></p>
+<ul>
+<li><p><strong>在你博客的根目录下使用VIM 编辑器打开_config.yml</strong></p>
+<p> <code>vim ./_config.yml</code></p>
+<p> 然后拉到最下面修改这部分的内容：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/username/username.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>其中 <strong>username</strong> 就是你自己GitHub的用户名。<strong>注意空格</strong></p>
+
           
         
       
